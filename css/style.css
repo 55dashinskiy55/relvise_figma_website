@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #737373;
+    overflow-x: hidden;
     
 }
 
@@ -111,6 +112,12 @@ nav {
     padding: 10px 35px;
     border-radius: 1000px;
     border: 2px solid #FF7B47;
+    transition: all 0.2s ease-out 0s;
+}
+
+.btn__welcome--orange:hover {
+    color: #000;
+    transition: all 0.2s ease-in 0s;
 }
 
 .btn__welcome--transparent {
@@ -123,6 +130,13 @@ nav {
     padding: 10px 35px;
     border-radius: 1000px;
     border: 2px solid #0D5C63;
+    transition: all 0.2s ease-out 0s;
+}
+
+.btn__welcome--transparent:hover {
+    color: #E6E6E6;
+    background-color: #0D5C63;
+    transition: all 0.2s ease-in 0s;
 }
 
 .offer__items {
@@ -411,7 +425,7 @@ margin-bottom: 135px;
     padding: 0px 22px;
     min-height: 58px;
     align-items: center;
-    
+    cursor: pointer;
 }
 
 .blueline {
